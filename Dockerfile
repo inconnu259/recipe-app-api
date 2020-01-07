@@ -1,5 +1,5 @@
 FROM python:3.8-alpine
-MAINTAINER inconnu259
+LABEL maintainer="inconnu259"
 
 ENV PYTHONUNBUFFERED 1
 

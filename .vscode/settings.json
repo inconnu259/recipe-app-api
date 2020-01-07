@@ -1,3 +1,47 @@
 {
-    "python.pythonPath": "C:\\Users\\tbutzbach\\AppData\\Local\\Programs\\Python\\Python38\\python.exe"
+    "python.pythonPath": "C:\\Users\\tbutzbach\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+
+    "colorize.languages": [
+      "css",
+      "sass",
+      "scss",
+      "less",
+      "postcss",
+      "sss",
+      "stylus",
+      "xml",
+      "svg",
+      "typescript"
+    ],
+
+    "colorInfo.languages": [
+        {
+          "selector": "css",
+          "colors": "css"
+        },
+        {
+          "selector": "sass",
+          "colors": "css"
+        },
+        {
+          "selector": "scss",
+          "colors": "css"
+        },
+        {
+          "selector": "less",
+          "colors": "css"
+        },
+        {
+            "selector": "javascript",
+            "colors": "css"  
+        },
+        {
+            "selector": "html",
+            "colors": "css"  
+        },
+        {
+            "selector": "typescript",
+            "colors": "css"  
+        }
+      ]
 }

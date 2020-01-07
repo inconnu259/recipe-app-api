@@ -1,0 +1,100 @@
+[
+  {
+    "title": "Tarte à la tomate",
+    "time_minutes": "15",
+    "price": "5.00",
+    "tag": "tarte",
+    "img": "tarte_tomate.jpg"
+  },
+  {
+    "title": "Charlotte aux Fraises",
+    "time_minutes": "20",
+    "price": "10.00",
+    "tag": "dessert",
+    "img": "tarte_tomate.jpg"
+  },
+  {
+    "title": "Pâtes carbo",
+    "time_minutes": "5",
+    "price": ".50",
+    "tag": "plat",
+    "img": "tarte_tomate.jpg"
+  },
+  {
+    "title": "Panini chèvre miel",
+    "time_minutes": "10",
+    "price": "4.55",
+    "tag": "plat",
+    "img": "tarte_tomate.jpg"
+  },
+  {
+    "title": "Endive au jambon",
+    "time_minutes": "12",
+    "price": "5.60",
+    "tag": "plat",
+    "img": "tarte_tomate.jpg"
+  },
+  {
+    "title": "Soupe de lentilles corails",
+    "time_minutes": "15",
+    "price": "13.02",
+    "tag": "hiver",
+    "img": "tarte_tomate.jpg"
+  },
+  {
+    "title": "Tarte aux poireaux",
+    "time_minutes": "22",
+    "price": "8.80",
+    "tag": "tarte",
+    "img": "tarte_tomate.jpg"
+  },
+  {
+    "title": "Gateau au chocolat",
+    "time_minutes": "15",
+    "price": "5.00",
+    "tag": "dessert",
+    "img": "tarte_tomate.jpg"
+  },
+  {
+    "title": "Poulet basquaise",
+    "time_minutes": "16",
+    "price": "5.80",
+    "tag": "plat",
+    "img": "tarte_tomate.jpg"
+  },
+  {
+    "title": "Riz pilaf",
+    "time_minutes": "18",
+    "price": "7.00",
+    "tag": "plat",
+    "img": "tarte_tomate.jpg"
+  },
+  {
+    "title": "Tartiflette",
+    "time_minutes": "25",
+    "price": "15.00",
+    "tag": "plat regional",
+    "img": "tarte_tomate.jpg"
+  },
+  {
+    "title": "Fondue savoyarde",
+    "time_minutes": "21",
+    "price": "51.00",
+    "tag": "plat regional",
+    "img": "tarte_tomate.jpg"
+  },
+  {
+    "title": "Raclette",
+    "time_minutes": "5",
+    "price": "5.10",
+    "tag": "plat regional",
+    "img": "tarte_tomate.jpg"
+  },
+  {
+    "title": "Fraisier",
+    "time_minutes": "15",
+    "price": "5.00",
+    "tag": "dessert",
+    "img": "tarte_tomate.jpg"
+  }
+]
