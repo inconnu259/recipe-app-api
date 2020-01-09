@@ -30,6 +30,18 @@
           solo-inverted
           style="max-width: 300px;"
         />
+        <v-spacer />
+        <v-btn
+          v-if="isLoggedIn"
+          @click="logout"
+          text
+          class="ml-0 hidden-sm-and-down"
+        >
+          Logout
+        </v-btn>
+        <v-btn v-else to="/login" text class="ml-0 hidden-sm-and-down">
+          Login
+        </v-btn>
       </v-layout>
     </v-container>
   </v-app-bar>
@@ -40,7 +52,10 @@
 import { mapGetters, mapMutations } from "vuex";
 export default {
   computed: {
-    ...mapGetters(["links"])
+    ...mapGetters(["links"]),
+    isLoggedIn: function() {
+      return this.$store.getters.isLoggedIn;
+    }
   },
   methods: {
     ...mapMutations(["toggleDrawer"]),
@@ -48,6 +63,11 @@ export default {
       e.stopPropagation();
       if (item.to || !item.href) return;
       this.$vuetify.goTo(item.href);
+    },
+    logout: function() {
+      this.$store.dispatch("logout").then(() => {
+        this.$router.push("/login");
+      });
     }
   }
 };
